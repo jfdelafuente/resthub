@@ -4,7 +4,9 @@
   "description": "Una App que hace uso de una implementacion de Restful API. How To Build Simple RESTful API with NodeJs, ExpressJs and MongoDB ( buscar en Medium)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "devStart": "nodemon index"
   },
   "keywords": [
     "api",

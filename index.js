@@ -41,7 +41,7 @@ db();
 //var port = process.env.PORT || 8080;
 
 // Send message for default URL
-app.get('/', (req, res) => res.send('Hello World with Express'));
+app.get('/', (req, res) => res.send('Hello World with Express. How To Build Simple RESTful API with NodeJs, ExpressJs and MongoDB ( buscar en Medium)"'));
 
 // Use Api routes in the App
 app.use('/api', apiRoutes);
