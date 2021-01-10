@@ -11,7 +11,7 @@ curl -i --request GET localhost:8080/api
 
 // router.route('/contacts') \
 //    .get(contactController.index) \
-//    .post(contactController.new); \
+//    .post(contactController.new);
 
 curl -i --request GET localhost:8080/api/contacts
 curl --location --request POST 'localhost:8080/api/contacts' \
@@ -25,7 +25,7 @@ curl --location --request POST 'localhost:8080/api/contacts' \
 //    .get(contactController.view) \
 //    .patch(contactController.update) \
 //    .put(contactController.update) \
-//    .delete(contactController.delete); \
+//    .delete(contactController.delete);
 
 curl -i --request GET localhost:8080/api/contacts/5ffae71c0a41272aed7c87e3
 curl -i --request DELETE localhost:8080/api/contacts/5ffae71c0a41272aed7c87e3
