@@ -4,3 +4,4 @@ npm-debug.log
 .env
 .DS_Store
 resthub.code-workspace
+package-lock.json
