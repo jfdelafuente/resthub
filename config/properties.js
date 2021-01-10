@@ -1,4 +1,4 @@
 module.exports = {
-    PORT : 4000,
+    PORT : 8080,
     DB : 'mongodb://localhost/resthub',
 }

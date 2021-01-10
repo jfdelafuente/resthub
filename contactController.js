@@ -66,7 +66,7 @@ exports.update = function (req, res) {
 };
 // Handle delete contact
 exports.delete = function (req, res) {
-    Contact.remove({
+    Contact.deleteOne({
         _id: req.params.contact_id
     }, function (err, contact) {
         if (err)
