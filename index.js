@@ -5,9 +5,6 @@ let properties = require('./config/properties');
 let db = require('./config/database');
 //var app = express();
 
-// call the database connectivity function
-db();
-
 // Import express
 let express = require('express');
 // Import Body parser
@@ -27,6 +24,8 @@ app.use(bodyParser.json());
 // server estatic file
 app.use(express.static('public'));
 
+// call the database connectivity function
+db();
 
 // Connect to Mongoose and set connection variable
 // mongoose.connect('mongodb://localhost/resthub', { useNewUrlParser: true});
